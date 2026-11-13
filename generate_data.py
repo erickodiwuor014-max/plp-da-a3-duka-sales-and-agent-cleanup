@@ -16,29 +16,29 @@ n = 1000
 
 products = {"Phone": 15000, "Laptop": 65000, "Headphones": 2500,
 
-            "Tablet": 28000, "Charger": 1200}
+            "Tablet": 28000, "Charger": 1200}
 
 
 
 sales = pd.DataFrame({
 
-    "order_id": range(1001, 1001 + n),
+    "order_id": range(1001, 1001 + n),
 
-    "order_date": pd.to_datetime("2026-01-01")
+    "order_date": pd.to_datetime("2026-01-01")
 
-                  + pd.to_timedelta(rng.integers(0, 180, n), unit="D"),
+                  + pd.to_timedelta(rng.integers(0, 180, n), unit="D"),
 
-    "branch": rng.choice(["Nairobi", "Mombasa", "Kisumu", "Nakuru", "Eldoret"], n,
+    "branch": rng.choice(["Nairobi", "Mombasa", "Kisumu", "Nakuru", "Eldoret"], n,
 
-                         p=[0.4, 0.2, 0.15, 0.15, 0.1]),
+                         p=[0.4, 0.2, 0.15, 0.15, 0.1]),
 
-    "product": rng.choice(list(products), n),
+    "product": rng.choice(list(products), n),
 
-    "quantity": rng.integers(1, 6, n),
+    "quantity": rng.integers(1, 6, n),
 
-    "channel": rng.choice(["In-store", "Online", "Phone order"], n,
+    "channel": rng.choice(["In-store", "Online", "Phone order"], n,
 
-                          p=[0.55, 0.35, 0.10]),
+                          p=[0.55, 0.35, 0.10]),
 
 })
 
