@@ -45,3 +45,14 @@ The agent register has 20 rows. Seven clean transactions belong to agent AG099, 
 4. Open `agent_cleanup.ipynb` and choose Restart kernel and Run all. It imports `clean_agent_data` from `cleaning_pipeline.py`.
 
 Both notebooks also work in Google Colab: they clone this repository and generate the data if the files are missing.
+## Where to find each deliverable
+| Requirement | Location |
+|---|---|
+| Duka Executive Summary (after title) | [duka_sales_exploration.ipynb](https://github.com/erickodiwuor014-max/plp-da-a3-duka-sales-and-agent-cleanup/blob/main/duka_sales_exploration.ipynb) |
+| Tasks 3 to 7 (branches, products, weekend, month, premium export) | same notebook, sections 3 to 7 |
+| Premium online export | [outputs/premium_online_coast_capital.csv](https://github.com/erickodiwuor014-max/plp-da-a3-duka-sales-and-agent-cleanup/blob/main/outputs/premium_online_coast_capital.csv) |
+| Excel: SUMIFS, XLOOKUP, PivotTable | [excel/duka_branch_summary.xlsx](https://github.com/erickodiwuor014-max/plp-da-a3-duka-sales-and-agent-cleanup/blob/main/excel/duka_branch_summary.xlsx) |
+| Data generators (unchanged) | [generate_data.py](https://github.com/erickodiwuor014-max/plp-da-a3-duka-sales-and-agent-cleanup/blob/main/generate_data.py) |
+| Cleaning function | [cleaning_pipeline.py](https://github.com/erickodiwuor014-max/plp-da-a3-duka-sales-and-agent-cleanup/blob/main/cleaning_pipeline.py) |
+| Audit table, summaries, Data Quality Report with privacy paragraph | [agent_cleanup.ipynb](https://github.com/erickodiwuor014-max/plp-da-a3-duka-sales-and-agent-cleanup/blob/main/agent_cleanup.ipynb) |
+| Clean agent data | [outputs/agent_transactions_clean.csv](https://github.com/erickodiwuor014-max/plp-da-a3-duka-sales-and-agent-cleanup/blob/main/outputs/agent_transactions_clean.csv) |
